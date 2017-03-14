@@ -1,3 +1,10 @@
 class Friend
-  # TODO: your code goes here!
+
+		def greeting(str ="")
+			if (str == "")
+				return "Hello!"
+			else
+				return "Hello, "+str+"!"
+			end
+		end
 end
